@@ -72,13 +72,13 @@ const styles = StyleSheet.create({
         overflow: 'hidden'
     },
     title: {
-        fontFamily: 'open-sans-bold',
+        // fontFamily: 'open-sans-bold',
         fontSize: 14,
         marginVertical: 4,
         color: 'black'
     },
     vicinity: {
-        fontFamily: 'open-sans',
+        // fontFamily: 'open-sans',
         fontSize: 14,
         color: '#888',
         color: 'black'

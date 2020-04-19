@@ -51,9 +51,10 @@ const tabScreenConfig = {
     Calculate: {
         screen: testNavigator, navigationOptions: {
             tabBarLabel: 'Test',
-            tabBarIcon: (tabInfo) => {
-                return (<Ionicons name='ios-calculator' size={25} color={tabInfo.tintColor} />);
-            },
+            // tabBarIcon: (tabInfo) => {
+            //     return (<Ionicons name='ios-calculator' size={25} color={tabInfo.tintColor} />);
+            // }
+            // ,
             tabBarColor: Colors.primaryColor,
         }
     },
@@ -61,9 +62,10 @@ const tabScreenConfig = {
         screen: MapNavigator
         , navigationOptions: {
             tabBarLabel: 'Map',
-            tabBarIcon: (tabInfo) => {
-                return (<Ionicons name='ios-map' size={25} color={tabInfo.tintColor} />);
-            },
+            // tabBarIcon: (tabInfo) => {
+            //     return (<Ionicons name='ios-map' size={25} color={tabInfo.tintColor} />);
+            // }
+            // ,
             tabBarColor: Colors.accentColor
         }
     }
